@@ -53,15 +53,31 @@
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.label15 = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
+			this.tabPage3 = new System.Windows.Forms.TabPage();
+			this.button5 = new System.Windows.Forms.Button();
+			this.label17 = new System.Windows.Forms.Label();
+			this.label18 = new System.Windows.Forms.Label();
+			this.label19 = new System.Windows.Forms.Label();
+			this.button6 = new System.Windows.Forms.Button();
+			this.label20 = new System.Windows.Forms.Label();
+			this.label21 = new System.Windows.Forms.Label();
+			this.label22 = new System.Windows.Forms.Label();
+			this.textBox3 = new System.Windows.Forms.TextBox();
+			this.label23 = new System.Windows.Forms.Label();
+			this.label24 = new System.Windows.Forms.Label();
+			this.textBox4 = new System.Windows.Forms.TextBox();
+			this.label25 = new System.Windows.Forms.Label();
 			this.tabControl1.SuspendLayout();
 			this.tabPage1.SuspendLayout();
 			this.tabPage2.SuspendLayout();
+			this.tabPage3.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tabControl1
 			// 
 			this.tabControl1.Controls.Add(this.tabPage1);
 			this.tabControl1.Controls.Add(this.tabPage2);
+			this.tabControl1.Controls.Add(this.tabPage3);
 			this.tabControl1.Location = new System.Drawing.Point(0, 2);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
@@ -334,6 +350,158 @@
 			this.label16.TabIndex = 10;
 			this.label16.Text = "Board of Intermediate Education Karachi";
 			// 
+			// tabPage3
+			// 
+			this.tabPage3.BackColor = System.Drawing.Color.MediumOrchid;
+			this.tabPage3.Controls.Add(this.textBox4);
+			this.tabPage3.Controls.Add(this.label25);
+			this.tabPage3.Controls.Add(this.button5);
+			this.tabPage3.Controls.Add(this.label17);
+			this.tabPage3.Controls.Add(this.label18);
+			this.tabPage3.Controls.Add(this.label19);
+			this.tabPage3.Controls.Add(this.button6);
+			this.tabPage3.Controls.Add(this.label20);
+			this.tabPage3.Controls.Add(this.label21);
+			this.tabPage3.Controls.Add(this.label22);
+			this.tabPage3.Controls.Add(this.textBox3);
+			this.tabPage3.Controls.Add(this.label23);
+			this.tabPage3.Controls.Add(this.label24);
+			this.tabPage3.Location = new System.Drawing.Point(4, 22);
+			this.tabPage3.Name = "tabPage3";
+			this.tabPage3.Size = new System.Drawing.Size(791, 216);
+			this.tabPage3.TabIndex = 2;
+			this.tabPage3.Text = "Custom";
+			// 
+			// button5
+			// 
+			this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button5.Location = new System.Drawing.Point(575, 143);
+			this.button5.Name = "button5";
+			this.button5.Size = new System.Drawing.Size(209, 60);
+			this.button5.TabIndex = 21;
+			this.button5.Text = "Close";
+			this.button5.UseVisualStyleBackColor = true;
+			this.button5.Click += new System.EventHandler(this.Button5_Click);
+			// 
+			// label17
+			// 
+			this.label17.AutoSize = true;
+			this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label17.Location = new System.Drawing.Point(439, 91);
+			this.label17.Name = "label17";
+			this.label17.Size = new System.Drawing.Size(19, 25);
+			this.label17.TabIndex = 20;
+			this.label17.Text = "-";
+			// 
+			// label18
+			// 
+			this.label18.AutoSize = true;
+			this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label18.Location = new System.Drawing.Point(299, 91);
+			this.label18.Name = "label18";
+			this.label18.Size = new System.Drawing.Size(134, 25);
+			this.label18.TabIndex = 19;
+			this.label18.Text = "Percentage: ";
+			// 
+			// label19
+			// 
+			this.label19.AutoSize = true;
+			this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label19.Location = new System.Drawing.Point(233, 149);
+			this.label19.Name = "label19";
+			this.label19.Size = new System.Drawing.Size(29, 39);
+			this.label19.TabIndex = 18;
+			this.label19.Text = "-";
+			// 
+			// button6
+			// 
+			this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button6.Location = new System.Drawing.Point(18, 143);
+			this.button6.Name = "button6";
+			this.button6.Size = new System.Drawing.Size(209, 60);
+			this.button6.TabIndex = 17;
+			this.button6.Text = "Calculate Grade";
+			this.button6.UseVisualStyleBackColor = true;
+			this.button6.Click += new System.EventHandler(this.Button6_Click);
+			// 
+			// label20
+			// 
+			this.label20.AutoSize = true;
+			this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label20.Location = new System.Drawing.Point(188, 91);
+			this.label20.Name = "label20";
+			this.label20.Size = new System.Drawing.Size(19, 25);
+			this.label20.TabIndex = 16;
+			this.label20.Text = "-";
+			// 
+			// label21
+			// 
+			this.label21.AutoSize = true;
+			this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label21.Location = new System.Drawing.Point(13, 91);
+			this.label21.Name = "label21";
+			this.label21.Size = new System.Drawing.Size(83, 25);
+			this.label21.TabIndex = 15;
+			this.label21.Text = "Grade: ";
+			// 
+			// label22
+			// 
+			this.label22.AutoSize = true;
+			this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label22.Location = new System.Drawing.Point(551, 60);
+			this.label22.Name = "label22";
+			this.label22.Size = new System.Drawing.Size(19, 25);
+			this.label22.TabIndex = 14;
+			this.label22.Text = "-";
+			// 
+			// textBox3
+			// 
+			this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBox3.Location = new System.Drawing.Point(193, 54);
+			this.textBox3.Name = "textBox3";
+			this.textBox3.Size = new System.Drawing.Size(100, 31);
+			this.textBox3.TabIndex = 13;
+			this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox3_KeyPress);
+			// 
+			// label23
+			// 
+			this.label23.AutoSize = true;
+			this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label23.Location = new System.Drawing.Point(11, 57);
+			this.label23.Name = "label23";
+			this.label23.Size = new System.Drawing.Size(176, 25);
+			this.label23.TabIndex = 12;
+			this.label23.Text = "Obtained Marks: ";
+			// 
+			// label24
+			// 
+			this.label24.AutoSize = true;
+			this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label24.Location = new System.Drawing.Point(186, 12);
+			this.label24.Name = "label24";
+			this.label24.Size = new System.Drawing.Size(384, 39);
+			this.label24.TabIndex = 11;
+			this.label24.Text = "Education Grade Check";
+			// 
+			// textBox4
+			// 
+			this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.textBox4.Location = new System.Drawing.Point(443, 57);
+			this.textBox4.Name = "textBox4";
+			this.textBox4.Size = new System.Drawing.Size(100, 31);
+			this.textBox4.TabIndex = 23;
+			this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox4_KeyPress);
+			// 
+			// label25
+			// 
+			this.label25.AutoSize = true;
+			this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label25.Location = new System.Drawing.Point(300, 60);
+			this.label25.Name = "label25";
+			this.label25.Size = new System.Drawing.Size(137, 25);
+			this.label25.TabIndex = 22;
+			this.label25.Text = "Total Marks: ";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -351,6 +519,8 @@
 			this.tabPage1.PerformLayout();
 			this.tabPage2.ResumeLayout(false);
 			this.tabPage2.PerformLayout();
+			this.tabPage3.ResumeLayout(false);
+			this.tabPage3.PerformLayout();
 			this.ResumeLayout(false);
 
 		}
@@ -382,6 +552,20 @@
 		private System.Windows.Forms.Label label16;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.Button button4;
+		private System.Windows.Forms.TabPage tabPage3;
+		private System.Windows.Forms.TextBox textBox4;
+		private System.Windows.Forms.Label label25;
+		private System.Windows.Forms.Button button5;
+		private System.Windows.Forms.Label label17;
+		private System.Windows.Forms.Label label18;
+		private System.Windows.Forms.Label label19;
+		private System.Windows.Forms.Button button6;
+		private System.Windows.Forms.Label label20;
+		private System.Windows.Forms.Label label21;
+		private System.Windows.Forms.Label label22;
+		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.Label label23;
+		private System.Windows.Forms.Label label24;
 	}
 }
 

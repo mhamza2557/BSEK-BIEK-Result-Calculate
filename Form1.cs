@@ -176,5 +176,90 @@ namespace KarachiBoard
 		{
 			this.Close();
 		}
+
+		private void Button6_Click(object sender, EventArgs e)
+		{
+			if (textBox3.Text != "" && textBox4.Text != "")
+			{
+				int obtainedMarks = (int.Parse(textBox3.Text) * 100) / int.Parse(textBox4.Text);
+				//label3.Text = String.Format(obtainedMarks.ToString());
+				if (int.Parse(textBox3.Text) <= int.Parse(textBox4.Text))
+				{
+					if (obtainedMarks >= 80)
+					{
+						label20.Text = "A-one";
+						label19.Text = "YOU'VE PASSED!";
+					}
+					else if (obtainedMarks >= 70 && obtainedMarks < 80)
+					{
+						label20.Text = "A";
+						label19.Text = "YOU'VE PASSED!";
+					}
+					else if (obtainedMarks >= 60 && obtainedMarks < 70)
+					{
+						label20.Text = "B";
+						label19.Text = "YOU'VE PASSED!";
+					}
+					else if (obtainedMarks >= 50 && obtainedMarks < 60)
+					{
+						label20.Text = "C";
+						label19.Text = "YOU'VE PASSED!";
+					}
+					else if (obtainedMarks >= 40 && obtainedMarks < 50)
+					{
+						label20.Text = "D";
+						label19.Text = "YOU'VE PASSED!";
+					}
+					else if (obtainedMarks >= 33 && obtainedMarks < 40)
+					{
+						label20.Text = "E";
+						label19.Text = "YOU'VE PASSED!";
+					}
+					else
+					{
+						label20.Text = "F";
+						label19.Text = "NOT PASS";
+					}
+
+					label22.Text = textBox3.Text + " / " + textBox4.Text;
+					label17.Text = obtainedMarks.ToString() + "%";
+				}
+				else
+				{
+					MessageBox.Show("Enter below " + textBox4.Text, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				}
+			}
+			else
+			{
+				MessageBox.Show("Enter Obtained Marks/Total Marks", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+
+		private void TextBox3_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			Char chr = e.KeyChar;
+			if (!Char.IsDigit(chr) && chr != 8)
+			{
+				e.Handled = true;
+				MessageBox.Show("Enter only numbers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+			}
+		}
+
+		private void TextBox4_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			Char chr = e.KeyChar;
+			if (!Char.IsDigit(chr) && chr != 8)
+			{
+				e.Handled = true;
+				MessageBox.Show("Enter only numbers", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+			}
+		}
+
+		private void Button5_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }

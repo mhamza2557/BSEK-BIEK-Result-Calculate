@@ -1,0 +1,14 @@
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\KarachiBoard.csprojAssemblyReference.cache
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\KarachiBoard.Form1.resources
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\KarachiBoard.Properties.Resources.resources
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\KarachiBoard.csproj.GenerateResource.cache
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\KarachiBoard.csproj.CoreCompileInputs.cache
+C:\Users\Hamza\source\repos\KarachiBoard\bin\Debug\Karachi Board.exe.config
+C:\Users\Hamza\source\repos\KarachiBoard\bin\Debug\Karachi Board.exe.manifest
+C:\Users\Hamza\source\repos\KarachiBoard\bin\Debug\Karachi Board.application
+C:\Users\Hamza\source\repos\KarachiBoard\bin\Debug\Karachi Board.exe
+C:\Users\Hamza\source\repos\KarachiBoard\bin\Debug\Karachi Board.pdb
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\Karachi Board.exe.manifest
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\Karachi Board.application
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\Karachi Board.exe
+C:\Users\Hamza\source\repos\KarachiBoard\obj\Debug\Karachi Board.pdb
